@@ -18,27 +18,46 @@
 header{
     grid-area: header;
     background-color: blueviolet;
+    font-size: 6em;
+    font-style: italic;
+    border: 3px solid black;
+    align-content: center;
+    font-weight: 500;
 }
 
 main{
     background-color: red;
     grid-area: main;
+    font-size: 6em;
+    font-style: italic;
+    border: 3px solid black;
+    align-content: center;
+
 }
 
 aside{
     background-color: aqua;
     grid-area: aside;
+    font-size: 6em;
+    font-style: italic;
+    border: 3px solid black;
+    align-content: center;
+
 }
 
 footer{
     background-color: greenyellow;
     grid-area: footer;
+    font-size: 6em;
+    font-style: italic;
+    border: 3px solid black;
+    align-content: center;
 }
 
 
 
 .content > *{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px;
 }
