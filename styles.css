@@ -1,0 +1,44 @@
+.content{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+
+    grid-template-areas:
+    "header header header header header"
+    ". main main main aside"
+    ". main main main aside"
+    "footer footer footer footer footer";
+
+    gap: 3px;
+}
+
+header{
+    grid-area: header;
+    background-color: blueviolet;
+}
+
+main{
+    background-color: red;
+    grid-area: main;
+}
+
+aside{
+    background-color: aqua;
+    grid-area: aside;
+}
+
+footer{
+    background-color: greenyellow;
+    grid-area: footer;
+}
+
+
+
+.content > *{
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
